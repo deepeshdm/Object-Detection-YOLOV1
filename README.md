@@ -26,9 +26,9 @@ Step 2] Download this repo and open a new project with the main file being main.
 
 Step 3] Download the training weights required for the model
 
-![](/imgs/yoloapi.png)
-
 Step 4] The detect_objects( ) function in main.py acts as an interface to the model,pass the location of your image & weights file to the function & it'll plot back a new image with objects detected.
+
+![](/imgs/yoloapi.png)
 
 #### NOTE : The model sometimes produces INCORRECT PREDICTIONS & needs to be trained for more epochs to increase accuracy.
 #### (GPU RECOMMENDED FOR RUNNING THE MODEL)
