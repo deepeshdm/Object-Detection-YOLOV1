@@ -33,7 +33,7 @@ Step 4] The detect_objects( ) function in main.py acts as an interface to the mo
 #### NOTE : The model sometimes produces INCORRECT PREDICTIONS & needs to be trained for more epochs to increase accuracy.
 #### (GPU RECOMMENDED FOR RUNNING THE MODEL)
 
-
+Original Repository : https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLO
 
 
 
