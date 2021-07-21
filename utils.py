@@ -248,7 +248,7 @@ def plot_image(image, boxes):
     plt.show()
 
 
-# Converts the labels from relative to each
+# Converts the bounding boxes being relative to each
 # cell, to relative to the entire image.
 def convert_cellboxes(predictions, S=7):
     """
