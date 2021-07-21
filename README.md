@@ -33,7 +33,17 @@ Step 4] The detect_objects( ) function in main.py acts as an interface to the mo
 #### NOTE : The model sometimes produces INCORRECT PREDICTIONS & needs to be trained for more epochs to increase accuracy.
 #### (GPU RECOMMENDED FOR RUNNING THE MODEL)
 
+#----------------------------------------------------------------------------------
+
 Original Repository : [here](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLO)
+
+Changes Made : 
+
+1] Bounding Boxes now Display Class Label & Object Probability.
+
+2] Created a Simple API interface of the model for easy usability by others.
+
+3] Modified some code for faster preprocessing & postprocessing of images.
 
 
 
