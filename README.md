@@ -35,7 +35,7 @@ Step 4] The detect_objects( ) function in main.py acts as an interface to the mo
 
 #----------------------------------------------------------------------------------
 
-Original Repository : [here](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLO)
+Original Repository : [here](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLO) (Great Job from the Author !)
 
 Changes Made : 
 
