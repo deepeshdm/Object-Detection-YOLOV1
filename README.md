@@ -18,7 +18,7 @@ NOTE : For Real-Time object detection make sure you have a good memory and Gpu o
 
 #### => Each bounding box displays the object name it has detected and the probability of an object being present inside the bounding box.
 
-#----------------------------------------------------------------------------------
+***
 
 ### STEPS TO USE THIS MODEL AS API :
 
@@ -48,7 +48,7 @@ detect_objects(image_path=IMAGE_PATH,weights_path=WEIGHTS_PATH)
 #### NOTE : The model sometimes produces INCORRECT PREDICTIONS & needs to be trained for more epochs to increase accuracy.
 #### (GPU RECOMMENDED FOR RUNNING THE MODEL)
 
-#----------------------------------------------------------------------------------
+***
 
 Original Repository : [here](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLO) (Great Job from the Author !)
 
