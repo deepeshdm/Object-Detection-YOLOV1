@@ -4,7 +4,9 @@
 
 #### This model can detect only the objects listed in the above detection list.
 
-#### DETECTION LIST = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle','bus', 'car', 'cat', 'chair', 'cow', 'diningtable','dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
+```python
+DETECTION LIST = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle','bus', 'car', 'cat', 'chair', 'cow', 'diningtable','dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
+```
 
 NOTE : For Real-Time object detection make sure you have a good memory and Gpu on your computer system,a single forward pass takes on average 700-800 MB of memory.On a NVIDIA TITANX GPU this model can detect objects at 40-90 FPS which makes it very suited for Real-Time Object Detction.
                      
@@ -30,7 +32,18 @@ Step 3] Download the pretrained weights required for the model from [here](https
 
 Step 4] The detect_objects( ) function in main.py acts as an interface to the model,pass the location of your image & weights file to the function & it'll plot back a new image with objects detected.
 
-![](/imgs/yoloapi.png)
+```python
+
+# Insert the location of your Image below
+IMAGE_PATH = r'C:\Users\dipesh\Desktop\Pascal Voc\images\000025.jpg'
+
+# Insert the location of weights file below
+WEIGHTS_PATH = r'C:\Users\dipesh\Downloads\YoloV1_Weights.pth'
+
+from Yolo_API import detect_objects
+detect_objects(image_path=IMAGE_PATH,weights_path=WEIGHTS_PATH)
+
+```
 
 #### NOTE : The model sometimes produces INCORRECT PREDICTIONS & needs to be trained for more epochs to increase accuracy.
 #### (GPU RECOMMENDED FOR RUNNING THE MODEL)
